@@ -55,3 +55,4 @@ clean:
 
 flash:
 	st-flash write $(TARGET).bin 0x08000000
+

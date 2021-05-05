@@ -29,3 +29,4 @@ __hard_reset__:
     bl bootload
     _loop: b _loop
     .size __hard_reset__, .-__hard_reset__
+
